@@ -167,5 +167,8 @@ body .card a {
     width: 350px;
     height: 350px;
   }
+  body .card {
+    margin: 0 15px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

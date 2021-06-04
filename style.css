@@ -33,7 +33,7 @@ body .circle {
   height: 350px;
   z-index: -1;
   border-radius: 50%;
-  left: 400px;
+  left: 500px;
   background: linear-gradient(170deg, #03001e, #7303c0, #ec38bc, #fdeff9);
   -webkit-animation: fly 6s linear infinite;
           animation: fly 6s linear infinite;
@@ -73,13 +73,6 @@ body .circle {
   }
 }
 
-body h2 {
-  margin-bottom: 20px;
-  text-align: center;
-  font-size: 2rem;
-  color: #fff;
-}
-
 body .card {
   padding: 50px 30px;
   background: linear-gradient(100deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
@@ -87,6 +80,13 @@ body .card {
   border-radius: 10px;
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
+}
+
+body .card h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
 }
 
 body .card form {
@@ -152,10 +152,20 @@ body .card button:hover {
 
 body .card span {
   color: #fff;
+  font-size: 0.8em;
 }
 
 body .card a {
   font-weight: 600;
   color: #292929;
+}
+
+@media screen and (max-width: 768px) {
+  body .circle {
+    left: 50px;
+    top: -50px;
+    width: 350px;
+    height: 350px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
